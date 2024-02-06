@@ -35,13 +35,3 @@ Route::post('/login', [AuthController::class, 'authenticate']);
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 
-//git init
-//git add .
-//git commit -m "first commit 23"
-//git reomote add origin https://github.com/Rama-Eisawi/Social_Media.git
-//git push -u origion master
-
-//-----------------to make changes
-//git add .
-//git commit -m "second commit 23"
-//git push
